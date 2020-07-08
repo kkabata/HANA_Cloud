@@ -16,5 +16,6 @@ COLUMN TABLE "order-entry.db::orders" (
 , "NETSALES" BIGINT 
 , "UNITCOST" INTEGER 
 , "COST" INTEGER
+,  PRIMARY KEY ("ORDERID", "PRODUCTID")
 )
 
